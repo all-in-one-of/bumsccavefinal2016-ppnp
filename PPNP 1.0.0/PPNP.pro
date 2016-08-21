@@ -1,5 +1,5 @@
 # This specifies the exe name
-TARGET=PPNPQtGui
+TARGET=PPNP
 # where to put the .o files
 OBJECTS_DIR=obj
 # core Qt Libs to use add more here if needed.
@@ -34,7 +34,7 @@ SOURCES+=   $$PWD/src/MainWindow.cpp \
             $$PWD/src/functions/ImageWeightFunction.cpp \
 
 #Forms
-FORMS+=     $$PWD/ui/MainWindow.ui \
+FORMS+=     $$PWD/src/ui/MainWindow.ui \
 
 
 # same for the .h files
