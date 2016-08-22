@@ -31,8 +31,8 @@ MainWindow::MainWindow( QWidget *parent ) : QMainWindow(parent), m_ui(new Ui::Ma
   m_latticeIsIrregular = false;
   m_3D = false;
   m_randEndpointCount = 1;
-  m_randEndpointMinBounds = ngl::Vec3(0, 0, 0);
-  m_randEndpointMaxBounds = ngl::Vec3(2, 2, 2);
+  m_randEndpointMinBounds = ngl::Vec3(-5, -5, -5);
+  m_randEndpointMaxBounds = ngl::Vec3(5, 5, 5);
 }
 
 //----------------------------------------------------------------------------------------------------------------------
